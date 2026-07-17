@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 140 40" fill="none">
+  <path d="M11 9 L20 20" stroke="#FF6A48" stroke-width="2.6" stroke-linecap="round"></path>
+  <path d="M29 9 L20 20" stroke="#6BCBCF" stroke-width="2.6" stroke-linecap="round"></path>
+  <path d="M20 20 L20 32" stroke="#EDE6D3" stroke-width="2.6" stroke-linecap="round"></path>
+  <text x="44" y="26" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="13" letter-spacing="4.5" fill="#EDE6D3">YNERA</text>
+</svg>
