@@ -14,18 +14,22 @@
 - Deploy: Railway (build estático de Vite servido por cualquier static server).
 - Nada de librerías extra de UI. Los componentes se escriben a mano según abajo.
 
-## Assets de video
+## Assets de video (YA EN `assets/`, listos para usar)
+
+Aportados por el usuario (generados con Gemini/Veo), marca de agua removida
+con delogo, 1280×720 H.264 24fps 10s, faststart, sin audio:
+
+| Archivo | Contenido | Uso |
+|---|---|---|
+| `assets/video-hero.mp4` (1.4 MB) | La Y 3D girando 360° sobre negro | **Hero con `ScrubVideo`** — el scrub del mouse rota el logo |
+| `assets/video-datos.mp4` (3.0 MB) | La Y con splash líquido azul/violeta | Sección **Datos** (`FadingVideo`) |
+| `assets/video-ia.mp4` (2.9 MB) | Chispas/partículas blancas formando la Y | Sección **IA** (`FadingVideo`) |
+| `assets/video-seguridad.mp4` (3.8 MB) | La Y glow sobre malla hexagonal tech | Sección **Seguridad** (`FadingVideo`) |
 
 - Los videos de los prompts de referencia (cloudfront `user_38xz...`,
-  motionsites.ai) son de terceros: **NO usarlos en producción**. Solo sirven
-  como referencia de mood.
-- Videos propios disponibles: `hero-orb.mp4` y `Ynera Video (1).mp4`
-  (vienen del zip del sitio anterior; copiar a `assets/` cuando se usen).
-- El usuario va a aportar más videos. Slot prioritario: **hero con scrub**
-  (ideal: cámara orbitando la Y / un objeto, así el scrub se siente como
-  rotarlo con el mouse).
-- Mientras falte un video para una sección: fallback al gradiente CSS de la
-  paleta (como v1), nunca un video ajeno.
+  motionsites.ai) son de terceros: **NO usarlos en producción**.
+- Fallback si un video no carga: gradiente CSS de la paleta, nunca un video
+  ajeno.
 
 ## Sistema visual (hereda BRAND.md, con estos agregados)
 
