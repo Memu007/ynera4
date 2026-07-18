@@ -1,0 +1,15 @@
+{
+  "name": "ynera-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "YNERA — landing page (estático)",
+  "scripts": {
+    "start": "serve -l ${PORT:-3000} ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "serve": "14.2.4"
+  }
+}
